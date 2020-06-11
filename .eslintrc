@@ -1,0 +1,41 @@
+{
+  "extends": "plugin:wdio/recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVerion": 6,
+    "allowImportExportEverywhere": true,
+    "sourceType": "module"
+
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "expect": true,
+    "assert": true,
+    "sprintf": true
+  },
+  "rules": {
+    "indent": [1, 4,
+      {
+        "SwitchCase": 1
+      }],
+    "arrow-spacing": 1,
+    "no-new-require": 1,
+    "no-console": 0,
+    "no-undef": 0,
+    "padded-blocks": [1, {"classes": "always"}
+    ],
+    "padding-line-between-statements": [1,
+      {
+        "blankLine": "always",
+        "prev": [
+          "*"
+        ],
+        "next": ["class", "export"]
+      }
+    ],
+    "quotes": [2, "single", { "allowTemplateLiterals": true }]
+  }
+}

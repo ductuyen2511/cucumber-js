@@ -1,0 +1,13 @@
+# Dependencies folder
+node_modules/
+
+# Report
+allure-results/
+allure-report/
+
+#idea folder
+.idea/
+
+# misc
+.DS_Store
+
