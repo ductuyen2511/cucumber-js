@@ -30,7 +30,7 @@
     "@wdio/sync": "^6.1.8",
     "allure-commandline": "^2.13.0",
     "async-wait-until": "^1.2.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.2",
     "chai": "^4.2.0",
     "cucumber": "^6.0.5",
