@@ -25,7 +25,7 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/register": "^7.0.0",
     "@wdio/allure-reporter": "^6.1.12",
-    "@wdio/mocha-framework": "^6.1.8",
+    "@wdio/mocha-framework": "^6.11.0",
     "@wdio/selenium-standalone-service": "^6.1.13",
     "@wdio/sync": "^6.1.8",
     "allure-commandline": "^2.13.0",
